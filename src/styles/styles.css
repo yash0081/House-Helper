@@ -1,0 +1,898 @@
+/* styles.css */
+
+.container {
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+
+.lefthand {
+    width: 40%;
+    background-color: #00DBFC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lefthandsignup {
+    width: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.righthand {
+    max-height: 100vh;
+    overflow-y: auto;
+    width: 60%;
+    min-height: 100vh;
+    background-color: white;
+    float: right;
+    box-sizing: border-box;
+}
+
+.righthand {
+    width: 60%;
+    min-height: 100vh;
+    background-color: white;
+    float: right;
+}
+
+.righthandsignup{
+    width: 60%;
+    min-height: 100vh;
+    background-color: #00DBFC;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1HomePage,
+.h2HomePage {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.h2HomePageSignup {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    margin-top: -100px;
+}
+
+.h1HomePage {
+    font-size: 80px;
+}
+
+.h2HomePage {
+    font-size: 30px;
+}
+
+.loginForm {
+    width: 400px;
+    padding: 30px;
+    margin: 0 auto;
+    border: 4px solid #00DBFC;
+    border-radius: 15px;
+}
+
+.loginInput {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: border-color 0.3s ease;
+}
+
+.customizeLoginInput {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.customizeLoginInput87 {
+    width: calc(100% + 419px);
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 15.5px;
+    font-weight: normal;
+
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+
+.customizeLoginInput35 {
+    width: calc(100% + 12px);
+    padding: 9px;
+    margin-bottom: 20px;
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.customizeLoginInput .react-select__control {
+    width: 100%;
+}
+
+.mainLogo{
+   margin-left: 120px;
+   margin-bottom: 100px;
+}
+
+.h1forSignup{
+    margin-top: -50px;
+}
+
+.loginButton {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #00DBFC;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.newloginButton{
+    width: 103.38%;
+    height: 60px;
+    padding: 15px;
+    background-color: #00DBFC;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+@media (max-width: 400px) {
+    .loginForm {
+      width: 80%;
+    }
+}
+
+.login_form_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.signupText {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.signupText p {
+    font-size: 16px;
+}
+
+.signupText a {
+    color: #00DBFC;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: border-bottom 0.3s ease;
+}
+
+.signupText a:hover {
+    border-bottom: 1px solid #00DBFC;
+}
+
+.signuph3{
+    text-align: center;
+}
+
+.circularButton {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    border: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.customizeh1{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 70px;
+}
+
+.customizeFormdriver {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border: 4px solid #00DBFC;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh auto; /* Adjust the margin-top and margin-bottom values */
+    box-sizing: border-box;
+}
+  
+@media (max-width: 400px) {
+    .customizeFormdriver {
+      width: 80%;
+      max-width: none;
+      margin: 5vh auto; /* Adjust the margin-top and margin-bottom values */
+    }
+}
+
+.customizeFormmaid {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border: 4px solid #00DBFC;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh auto; /* Adjust the margin-top and margin-bottom values */
+    box-sizing: border-box;
+}
+  
+@media (max-width: 400px) {
+    .customizeFormmaid {
+      width: 80%;
+      max-width: none;
+      margin: 5vh auto; /* Adjust the margin-top and margin-bottom values */
+    }
+}
+
+.customizeFormseeker{
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border: 4px solid #00DBFC;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 400px) {
+    .customizeFormseeker{
+      width: 80%;
+      max-width: none;
+      margin: auto;
+      margin-top: 50vh;
+      transform: translateY(-50%);
+    }
+}
+
+.customizeForm{
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border: 4px solid #00DBFC;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 400px) {
+    .customizeForm{
+      width: 80%;
+      max-width: none;
+      margin: auto;
+      margin-top: 50vh;
+      transform: translateY(-50%);
+    }
+}
+
+.sidebar {
+    width: 285px;
+    background-color: #00DBFC;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align tabs to the top */
+}
+  
+.sidebar h1 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.sidebar .tab {
+    width: 100%; /* Fill the width of the sidebar */
+    padding: 18px;
+    margin: 0;
+    border: 2.5px solid white;
+    border-radius: 0px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: flex-start; /* Align text to the left */
+}
+  
+
+.tab2 {
+    padding: 20px; /* Adjust padding to make tabs closer */
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(42, 220, 65);
+    color: white;
+    margin-bottom: 30px; /* Adjust the margin to make tabs closer */
+    margin-top: 20px;
+    font-size: 20px;
+}
+  
+.tab:hover {
+    background-color: #04d1f1;
+}
+
+  
+.container1 {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+} 
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.password-match-message {
+
+    margin-top: 0px; /* Adjust as needed */
+    margin-bottom: 40px;
+    margin-left: 1px
+}
+
+/* styles.css */
+
+/* ... (previous styles) */
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #10cbe8;
+    width: calc(118.2%);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: -10%; /* Half of the extra width */
+    margin-right: -5%; /* Half of the extra width */
+}
+
+.circularProfile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: center; /* Center items horizontally */
+    justify-content: space-between; /* Add space between icons */
+}
+
+.icon {
+    margin-top: 3px;
+    margin-left: 10px;
+    width: 22px;
+    height: 22px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.25s;
+}
+
+.icon2 {
+    margin-top: 3px;
+    margin-left: -30px;
+    width: 22px;
+    height: 22px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.25s;
+}
+
+
+
+
+.icon-with-text {
+    display: flex;
+    align-items: center;
+}
+  
+.tab-icon1,
+.tab-icon2,
+.tab-icon3 {
+  width: 25px;
+  height: 25px;
+
+}
+
+.masthead{
+    background-color: #00DBFC;
+}
+  
+.icon-with-text {
+    display: flex;
+    align-items: center; /* Center items horizontally */
+    justify-content: space-between; /* Add space between icons and text */
+    width: 100%;
+}
+  
+.tab .icon-with-text span {
+    flex: 1; /* Fill the remaining space */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text */
+}
+
+.rightSeekerHome {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.circular-rectangle {
+    position: relative; /* Ensure relative positioning for absolute positioning inside */
+    width: calc(100% - 160px);
+    height: 800px; /* Adjust the height based on your preference */
+    margin: 150px 80px 80px 80px;
+    padding: 20px;
+    background-color: white;
+    border: 4px solid #00DBFC;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.welcome-text {
+    position: absolute;
+    /*color: #00DBFC;*/
+    top: 35px;
+    left: 40px;
+    font-size: 42px;
+}
+
+.welcome-text20 {
+    position: absolute;
+    /*color: #00DBFC;*/
+    top: 115px;
+    left: 40px;
+    font-size: 25px;
+}
+
+.welcome-text21 {
+    position: absolute;
+    /*color: #00DBFC;*/
+    top: 245px;
+    left: 40px;
+    font-size: 25px;
+}
+
+.sub_welcome {
+    position: absolute;
+    /*color: #00DBFC;*/
+    top: 140px;
+    left: 40px;
+    font-size: 30px;
+
+}
+
+.sub_welcome2 {
+    position: absolute;
+    /*color: #00DBFC;*/
+    top: 370px;
+    left: 40px;
+    font-size: 30px;
+
+}
+
+.sub_stars{
+    position: absolute;
+    top: 276px;
+    right: 145px;
+}
+
+.sub_stars2{
+    position: absolute;
+    top: 200px;
+    right: 135px;
+
+    
+}
+
+.tooltip {
+    position: absolute;
+    top: calc(100%-10px);
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0s, transform 0s;
+    white-space: nowrap;
+    pointer-events: none; /* Prevent tooltip from capturing mouse events */
+}
+  
+[data-icon]:hover + .tooltip {
+    opacity: 1;
+    transform: translateX(12px);
+}
+
+.circular-rectangle-wrapper {
+    display: flex;
+    justify-content: space-between; /* Distribute space between the rectangles */
+    width: calc(100% - 160px);
+    margin: 150px 80px 80px 80px;
+}
+
+.circular-rectangle2 {
+    flex: 1; /* Distribute available space equally between the rectangles */
+    height: 500px; /* Adjust height as needed */
+    background-color: white;
+    border: 4px solid #00DBFC;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 0 10px; /* Add some space between the rectangles */
+    position: relative;
+    box-sizing: border-box;
+    width: 50%; /* Set width to 50% of the container */
+}
+
+.circular-rectangle10 {
+    flex: 1; /* Distribute available space equally between the rectangles */
+    height: 500px; /* Adjust height as needed */
+
+    background-color: white;
+    border: 4px solid #00DBFC;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 0 10px; /* Add some space between the rectangles */
+    position: relative;
+    box-sizing: border-box;
+    width: 50%; /* Set width to 50% of the container */
+}
+
+.customizeLoginInput2 {
+    width: calc(100%);
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: -0.5px;
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.customizeLoginInput10 {
+    width: calc(382px);
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: -0.5px;
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.customizeLoginInput28 {
+    width: calc(282px);
+    padding: 13px;
+    margin-bottom: 20px;
+    margin-left: -0.5px;
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.customizeLoginInput10000 {
+    width: calc(282px);
+    padding: 13px;
+    margin-bottom: 20px;
+    margin-left: -0.5px;
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 17px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.customizeLoginInput28::placeholder {
+    color: #ccc; /* Placeholder text color */
+    font-style: italic; /* Italicize placeholder text if desired */
+}
+
+.customizeLoginInput11 {
+    width: calc(382px);
+    padding: 5px;
+
+
+    margin-left: -0.5px;
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.customizeLoginInput4 {
+    width: calc(382px);
+    padding: 15px;
+    margin-top: 221px;
+    margin-bottom: 20px;
+    margin-left: -0.5px;
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.customizeLoginInput5 {
+    width: calc(382px);
+    padding: 15px;
+    margin-top: 36px;
+    margin-bottom: 20px;
+    margin-left: -0.5px;
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+
+
+.customizeLoginInput3 {
+    width: calc(381.5px); /* Adjust width */
+    padding: 9px;
+
+    margin-top: 118px;
+    margin-bottom: 30px;
+    margin-left: 1px; /* Adjust margin-left */
+
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: normal;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+
+}
+
+.customizeLoginInput13 {
+    width: calc(381.5px); /* Adjust width */
+    padding: 9px;
+
+    margin-top: 135px;
+    margin-bottom: 30px;
+    margin-left: 1px; /* Adjust margin-left */
+
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: normal;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+
+}
+
+
+.customizeLoginInput27 {
+    width: calc(281px); /* Adjust width */
+    padding: 9px;
+
+    margin-top: 135px;
+    margin-bottom: 30px;
+    margin-left: 1px; /* Adjust margin-left */
+
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 15.5px;
+    font-weight: bold;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+
+}
+
+.customizeLoginInput14 {
+    width: calc(100%+ 50px); /* Adjust width */
+    padding: 9px;
+
+    margin-top: 118px;
+    margin-bottom: 30px;
+    margin-left: 1px; /* Adjust margin-left */
+
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: normal;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+
+}
+
+.customizeLoginInput100 {
+    width: calc(100%+ 50px); /* Adjust width */
+    padding: 9px;
+
+    margin-top: 6px;
+    margin-bottom: 30px;
+    margin-left: 1px; /* Adjust margin-left */
+
+    border: 2px solid #00DBFC;
+    border-radius: 8px;
+    font-size: 15.5px;
+    font-weight: bold;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+
+}
+
+/* Add this CSS */
+.name-input-container {
+    width: calc(100% + 140px); /* Adjust as needed */
+}
+
+.loginButton2 {
+    width: 80%;
+    height: 60px;
+    padding: 18px;
+    background-color: #00DBFC;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.circular-rectangle-wrapper5 {
+    display: flex;
+    width: calc(100%); /* Adjust the width of the wrapper */
+    margin: 150px 80px 80px 80px;
+}
+
+.circular-rectangle19 {
+    flex: 1.3; /* Distribute available space equally between the rectangles */
+    height: 500px; /* Adjust height as needed */
+    background-color: white;
+    border: 4px solid #00DBFC;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 0 10px; /* Add some space between the rectangles */
+    position: relative;
+    box-sizing: border-box;
+}
+
+.circular-rectangle20 {
+    flex: 2.7; /* Distribute available space in 3:1 ratio */
+    height: 500px; /* Adjust height as needed */
+    background-color: white;
+    border: 4px solid #00DBFC;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 0 10px; /* Add some space between the rectangles */
+    position: relative;
+    box-sizing: border-box;
+}
+
+.page_container {
+    border: 40px solid #00DBFC;
+    height: calc(100vh - 80px);
+
+
+}
+
+.search-container {
+    position: relative;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+  
+.search-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white; /* Add a background color to the search bar */
+    padding: 10px; /* Add some padding for better visibility */
+    border-bottom: 2px solid #00DBFC; /* Add a border-bottom for visual separation */
+}
+  
+.worker-list-container {
+    flex: 1;
+    overflow-y: auto;
+    padding-top: 10px; /* Add some top padding for spacing from the search bar */
+
+}
+
